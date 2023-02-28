@@ -53,7 +53,7 @@ $(document).ready(function() {
       var priority = $('select').val();
       
       // Create a new row for the table
-      var newRow = $('<tr>').addClass('table-info');
+      var newRow = $('<tr>').addClass('table');
       newRow.append($('<td>').text(taskName));
       newRow.append($('<td>').text(dueDate));
       newRow.append($('<td>').text(priority));
